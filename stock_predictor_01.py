@@ -108,7 +108,7 @@ def func():
 
     text_widget.tag_configure("bold", font=("Helvetica", 12, "bold"))
     
-    genai.configure(api_key="AIzaSyDthMayeusJ9At_ofHC2_MEIyrTWJmEBEU")
+    genai.configure(api_key="")#enter api key
     generation_config = {"temperature": 0.9, "top_p": 1, "top_k": 1, "max_output_tokens": 2048}
     csv_file_path = file
     df = pd.read_csv(csv_file_path)
