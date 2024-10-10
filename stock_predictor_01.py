@@ -24,13 +24,13 @@ root.geometry("1500x900")
 root.configure(bg="white")
 root.resizable(False, False)
 
-image_icon = PhotoImage(file="C:/Users/Priyanshu Madhup/Desktop/STOCK/s_logo2.png")
+image_icon = PhotoImage(file="image/s_logo2.png")
 root.iconphoto(False, image_icon)
 
-img = PhotoImage(file="C:/Users/Priyanshu Madhup/Desktop/STOCK/STOCK MARKET PREDICTOR AND SUGGESTOR (2).png")
+img = PhotoImage(file="image/STOCK MARKET PREDICTOR AND SUGGESTOR (2).png")
 img_loc = Label(root, image=img, bg='white').place(x=50, y=50)
 
-simg = PhotoImage(file="C:/Users/Priyanshu Madhup/Desktop/STOCK/Untitled design (7).png")
+simg = PhotoImage(file="image/design.png")
 s_img_loc = Label(root, image=simg, bg='white')
 s_img_loc.place(x=150, y=300)
 
@@ -172,7 +172,7 @@ def func():
     clp_bu = Button(text="EXIT", cursor="hand2", bg="red", fg="black", command=root.destroy)
     clp_bu.place(x=380, y=720)
 
-s_icon = PhotoImage(file="C:/Users/Priyanshu Madhup/Desktop/STOCK/s_icon2.png")
+s_icon = PhotoImage(file="image/s_icon2.png")
 myimage_icon = Button(image=s_icon, borderwidth=5, cursor="hand2", bg="white", command=func)
 myimage_icon.place(x=460, y=300)
 
