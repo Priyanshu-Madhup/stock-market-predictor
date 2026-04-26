@@ -1,0 +1,51 @@
+# ── Screenshots (always tracked) ───────────────────────────────────────────
+# Place ss1.png … ss5.png inside screenshots/ — they WILL be committed
+!screenshots/
+!screenshots/**
+
+# ── Secrets ────────────────────────────────────────────────────────────────
+.env
+
+# ── Runtime / generated ────────────────────────────────────────────────────
+ai_cache.json
+stock_pred.csv
+*.log
+*.tmp
+
+# ── Python ─────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+lib/
+lib64/
+.installed.cfg
+MANIFEST
+
+# ── Virtual environments ────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ── IDE / editor ───────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
